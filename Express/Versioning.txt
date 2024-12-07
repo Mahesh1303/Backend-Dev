@@ -1,0 +1,39 @@
+so 
+
+there Are Versions for every model PResent \
+
+eg 4.15.2
+
+
+
+4----->First 
+15-----> Second
+2------>last 
+
+Versioning is Very imp because a slight change in it can lead to hacking
+
+
+last part========2---->>> the last Digit signifies the minor Updates in the Version
+
+Second Part=========15------->This means that it is a critical update which is mandatorily required ie they did somee critical bug fix
+                                eg they added some functionalities etc
+
+first part===========4-------->THis is the Major Release Update and Breaking Update we should not update it 
+                                it can stop working of the preversion made projects so it will break the code
+
+
+
+
+
+for Version it also mentions 
+
+^4.18.2
+
+this     ^   symbol means dont change that first number but you can change other
+            eg   4.12.4        , 4.21.1 etcccccc so this Specifies that when we update using npm the first digit 4 will not change
+
+            eg ^4.18.2
+                npm update
+
+                then it will get next ^4.21.1 etcc
+            

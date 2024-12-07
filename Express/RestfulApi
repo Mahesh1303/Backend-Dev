@@ -1,0 +1,29 @@
+The RestfulApis are the some set of standards established to send or get data from a server
+
+
+it is bases on client server architecturre this means that treat client and server as Seperate entities and then proceed
+
+
+1 eg if we know that our client is always a browser we can send the data in html because it will be faster as compared to the other    formats but if the client can  be any mobile application etc we should always send the data in json format 
+    because it will be supported by every other format
+    
+    when server sends response as html it is called as server side rendering ie we generated our html on server and then rendered 
+    eg google etc uses server side rendering
+
+2 Always Respect Https methods get , post ,put ,patch ,delete
+ get==> User Data read and return response 
+
+ post ===>
+ all these methods should be used respectively only
+
+
+ get /user path should not be again mentioned like get/getuser
+
+ post/user path not as post/creating user 
+
+
+ the method declaration should define at the beginning only no need to create unnecessary confusions
+
+ post /deleteuser this should not be the action taken 
+
+the rules should be respected
