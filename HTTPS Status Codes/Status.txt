@@ -1,0 +1,17 @@
+Https Status
+
+
+
+100-199  starting with 1 Means  Informational Responese
+
+200-299  Successful Response 
+                201 ---- created
+                
+
+
+300-399   Redirectional response 
+
+400-499  Client Side error Response eg wrong password incoreect etc 
+
+
+500  Server side error eg databse not able to connect or server not able to process request
