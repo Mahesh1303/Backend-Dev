@@ -1,0 +1,17 @@
+moongose have a schema in which we define a structure and using this schema we buld our model
+and using this model we do crud operations
+
+
+
+eg this was a model 
+{
+    "first_name": "Mahesh",
+    "last_name": "Divate",
+    "email": "max@gmail.com",
+    "id": 1004
+  },
+  {
+    "first_name": "Mahesh",
+    "last_name": "Divate",
+    "email": "max@gmail.com",
+    "id": 1005}  
